@@ -51,7 +51,7 @@
 
 	/*outer most card that decides spacing between cards and width*/
 	.col-lg-4, .col-md-6, .col-md-12, .col-sm-12 {
-		padding: 50px 5px 5px 5px;
+		padding: 50px 5px 35px 5px;
 		/*position: relative;		*/
 	}
 
