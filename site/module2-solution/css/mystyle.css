@@ -1,0 +1,94 @@
+	/*applt to all tags*/
+	* {
+		box-sizing: border-box;
+		font-family: Garamond;
+	}
+
+	h1 {
+		margin: 15px;
+		font-family: courier;
+		text-align: center;
+		margin-bottom: 30px;
+		font-size: 175%;
+	}
+
+	/*outer container*/
+	.row {
+		width: 100%;
+		position: relative;
+	}
+
+	
+	/*individual colors for title of foods*/
+	.Chicken {
+		background-color: #FF4136;	
+	}
+	.Beef {
+		background-color: #FF851B;
+	}
+	.Sushi {
+		background-color: #2ECC40;
+	}
+
+
+	/*food title position*/
+	div.Chicken, div.Beef, div.Sushi {
+		padding: 10px;
+		position: absolute;
+		top: 0;
+		right : 0;
+		font-size: 125%;	
+	}
+
+	/*cards to display dumy text*/
+	.content {
+		padding: 50px 5px 5px 5px;
+		border: 1px solid black;
+		background-color: #3D9970;
+		position: relative;
+	}
+
+
+	/*outer most card that decides spacing between cards and width*/
+	.col-lg-4, .col-md-6, .col-md-12, .col-sm-12 {
+		padding: 50px 5px 5px 5px;
+		/*position: relative;		*/
+	}
+
+	
+
+	/*media querries for different devics*/
+	/***************Desktop*****************/
+	@media (min-width: 992px) {
+		.col-lg-4{
+			float: left;	
+			width: 33.33%
+			/*margin-top: 40px;*/
+		}
+		
+	}
+
+	/***********Tablet**********************/
+	@media (min-width: 768px) and (max-width: 991px) {
+		.col-md-6 {
+			float: left;
+			width: 50%;
+			/*margin-top: 40px;*/
+		}
+		.col-md-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+
+	/***************Mobile*****************/
+	@media (max-width: 767px) {
+		.col-sm-12 {
+			float: left;
+			width: 100%
+			
+		}
+	}
+
+	
+
