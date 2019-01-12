@@ -1,6 +1,11 @@
-div.chicken-content{
+div.chicken-content, div.sushi-content, div.beef-content {
 	background-color: #7e8ba0;
 	padding: 1rem;
-	margin: 1.5rem;
+	/*margin: 1.5rem;*/
+	margin-bottom: 3rem;
+}
+
+#our-menu {
+	margin-bottom: 5rem;
 }
 
