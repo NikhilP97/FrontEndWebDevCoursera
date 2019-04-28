@@ -51,6 +51,29 @@ body.mainBody {
 	background-color: #EB6429  !important;
 }
 
+.voting-logos {
+	padding: 5px;
+}
+
+.border {
+	border: 2px solid #dee2e6 !important;
+}
+
+.hover-content {
+    display:none;
+}
+
+#oyster:hover .hover-content, #cat:hover .hover-content, #whale:hover .hover-content,
+ #elephant:hover .hover-content, #fish:hover .hover-content, #goose:hover .hover-content {
+    display:block;
+}
+
+.row {
+	margin: 2px;
+}
+
+
+
 
 
 
